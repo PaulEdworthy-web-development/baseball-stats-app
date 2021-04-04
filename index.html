@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="icon" href="icons/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css/style.css" />
+  <link rel="stylesheet" href="/styles.css/mobile.css">
+  <title>Dodgers</title>
+</head>
+
+<body>
+  <header id="home">
+    <nav class="navbar">
+      <h1><a href="#home"><img class="dodger-logo" src="images/dodgers-logo-white-lg.svg" alt="Dodger logo" /></a></h1>
+
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="roster.html">Roster</a></li>
+        <li><a href="stats.html">Stats</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="boxscore">
+    <div class="container">
+      <p class="date-time">
+        <script>
+          document.write(new Date().toDateString());
+        </script>
+        <div id="clock"></div>
+        <!-- <img class="dodger-logo" id="logo" src="images/dodgers-logo-white-lg.svg" alt="Dodger logo" /> -->
+        <table class="boxscore">
+          <tbody>
+            <tr>
+              <td></td>
+              <td>Teams</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>Runs</td>
+              <td>Hits</td>
+              <td>Errors</td>
+            </tr>
+            <tr>
+              <td>Visitor</td>
+              <td class="visitor"></td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>Home</td>
+              <td class="home"></td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
