@@ -6,9 +6,9 @@ function clock() {
 
     seconds = time.getSeconds();
 
-  document.querySelectorAll('.clock')[0].innerHTML = harold(hours) + ":" + harold(minutes) + ":" + harold(seconds);
+  document.querySelectorAll('.clock')[0].innerHTML = current(hours) + ":" + current(minutes) + ":" + current(seconds);
 
-  function harold(standIn) {
+  function current(standIn) {
     if (standIn < 10) {
       standIn = '0' + standIn
     }
